@@ -1,0 +1,72 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "掌上宝"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "掌上宝"
+			}
+		},
+		{
+			"path": "pages/tool/tool",
+			"style": {
+				"navigationBarTitleText": "投保工具"
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/tab-home.png",
+				"selectedIconPath": "static/icon/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tool/tool",
+				"iconPath": "static/icon/tab-tool.png",
+				"selectedIconPath": "static/icon/tab-tool-current.png",
+				"text": "工具"
+			},
+			{
+				"pagePath": "pages/study/study",
+				"iconPath": "static/icon/tab-study.png",
+				"selectedIconPath": "static/icon/tab-study-current.png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon/tab-my.png",
+				"selectedIconPath": "static/icon/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}
