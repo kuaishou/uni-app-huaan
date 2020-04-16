@@ -21,6 +21,10 @@
 	</view>
 </template>
 <script>
+	import {  
+	        mapState,  
+	        mapMutations  
+	    } from 'vuex';  
 	export default {
 		data() {
 			return {

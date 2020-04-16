@@ -34,11 +34,22 @@
 		{
 			"path": "pages/noCar/noCar",
 			"style": {
-				"navigationBarTitleText": "非车险",
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
 				"app-plus": {
-					"titleNView": {
-						"type": "transparent"
-					}
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/noCar/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
 				}
 			}
 		}
